@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - check if a number is positive, negative orzero
- *
- * Return: Always 0 (Success)
+ * main - Entry point
+ *Discription: 'Check for number if is positive or negative'
+ *Return: always 0
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
