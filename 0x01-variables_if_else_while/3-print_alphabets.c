@@ -15,9 +15,9 @@ int main(void)
 		n++;
 	}
 	while (m <= 90)
-		m++;
 	{
 		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
