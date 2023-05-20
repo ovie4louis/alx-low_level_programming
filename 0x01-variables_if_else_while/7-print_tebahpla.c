@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main: Entry point
+ *main - Entry point
  *Description: 'print alphabet in reverse'
  *Return: always 0
  */
