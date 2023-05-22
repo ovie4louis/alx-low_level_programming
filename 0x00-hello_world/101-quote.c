@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints a line to the standard error
+ *main - Entry point
  *Description: 'simple operating system'
  *Return: 1 (Success)
  */
