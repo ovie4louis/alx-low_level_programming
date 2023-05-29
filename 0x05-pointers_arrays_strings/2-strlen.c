@@ -2,10 +2,10 @@
 
 /**
  *_strlen - the function that returns the length of a string.
- *@s:string to be return
+ *@str:string to be return
  *Return:length
  */
-int _strlen(char *s)
+int _strlen(char *str)
 {
 	int length = 0;
 
