@@ -3,8 +3,8 @@
  *_strncat -  function that concatenates two strings.
  *it will use at most n bytes from src
  *@dest:input value
- *src:input value
- @n:input value
+ *@src:input value
+ *@n:input value
  *
  *Return: dest
  */
