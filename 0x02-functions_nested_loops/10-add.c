@@ -8,8 +8,8 @@
 
 int add(int a, int b)
 {
-	int a = 1;
-	int b = 1;
+	a;
+	b;
 	int result;
 
 	result = add(a, b);
