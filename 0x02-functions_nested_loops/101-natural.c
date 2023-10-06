@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  *main - entry point
  *Return: always 0
@@ -13,7 +13,6 @@ int main(void)
 	if (n % 3 == 0 || n % 5 == 0)
 	sum = sum + n;
 	}
-	printf("%d", sum);
-	printf('\n');
+	printf("%d\n", sum);
 	return (0);
 }
