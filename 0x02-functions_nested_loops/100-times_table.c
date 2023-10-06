@@ -20,13 +20,9 @@ void print_times_table(int n)
 	_putchar(' ');
 	mult = i * m;
 	if (mult <= 9)
-	{
 	_putchar(' ');
-	}
 	if (mult <= 99)
-	{
 	_putchar(' ');
-	}
 	if (mult >= 100)
 	{
 	_putchar((mult / 100) + 48);
@@ -39,5 +35,4 @@ void print_times_table(int n)
 	_putchar('\n');
 	}
 }
-
 }
