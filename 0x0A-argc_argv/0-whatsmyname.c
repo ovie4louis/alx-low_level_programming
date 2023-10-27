@@ -9,7 +9,7 @@ i#include <stdio.h>
  *Return: Always 0 (success)
  */
 
-int main(int argc__attribute__((unused)), char*argv[])
+int main(int argc, char const *argv[])
 
 {
 	(void)arg;
