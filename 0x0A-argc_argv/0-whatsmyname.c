@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,7 +12,8 @@
 int main(int argc__attribute__((unused)), char*argv[])
 
 {
-	printf("%s\n", *argv[]);
+	(void)arg;
+	printf("%s\n", argv[0]);
 	return (0);
 }
 
