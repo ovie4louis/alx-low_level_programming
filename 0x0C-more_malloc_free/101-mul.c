@@ -9,12 +9,12 @@
 
 void _puts(char *str)
 {
-int i = 0;
+	int i = 0;
 	while (str[i])
-{
+	{
 	_putchar(str[i]);
 	i++;
-}
+	}
 }
 
 /**
@@ -77,7 +77,7 @@ int main(int argc, char const *argv[])
 	_puts("Error ");
 	exit(98);
 }
-	print_int(_atoi(argv[1]) * atoi(argv[2]));
+	print_int(_atoi(argv[1]) * _atoi(argv[2]));
 	_putchar('\n');
 	return (0);
 }
