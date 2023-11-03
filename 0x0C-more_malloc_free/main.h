@@ -2,7 +2,7 @@
 #define MAIN_H
 
 #include <stdlib.h>
-
+char *_memset(char *s, char b, unsigned int n);
 int _putchar(char c);
 void _puts(char *str);
 int _atoi(const char *s);
