@@ -6,23 +6,14 @@
  *@name: name of the dog
  *@age: age of dog
  *@owner: owner of dog
+ *Description: just a lone dog struct in a big kitty world
 */
+
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
-/**
- *dog_t - typedef for struct dog
- */
-
-typedef struct dog dog_t;
-
-void struct init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
-dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog_t *d);
 
 #endif
