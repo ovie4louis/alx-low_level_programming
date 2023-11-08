@@ -9,7 +9,7 @@
  *
  *Return: always 0.
 */
-int main(int_attribute_((_unused_))argc, char *argv[])
+int main(int __attribute__((__unused__))argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
@@ -17,22 +17,22 @@ int main(int_attribute_((_unused_))argc, char *argv[])
 	if (argc != 4)
 	{
 	printf("Error\n");
-	exist(98);
+	exit(98);
 }
 
-	enum1 = atoi(argv[1]);
+	num1 = atoi(argv[1]);
 	op = argv[2];
 	num2 = atoi(argv[3]);
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 	printf("Error\n");
-	exist(99);
+	exit(99);
 	}
 
 	if ((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
 	{
 	printf("Error\n");
-	exist(100);
+	exit(100);
 }
 
 	printf("%d\n", get_op_func(op)(num1, num2));
